@@ -1,0 +1,6 @@
+-   id: powershell-scriptanalyzer-docker
+    name: PSScriptAnalyzer (docker)
+    description: PSScriptAnalyzer, provided by docker
+    entry: Invoke-ScriptAnalyzer -ScriptDefinition
+    language: docker
+    files: \.ps1$
