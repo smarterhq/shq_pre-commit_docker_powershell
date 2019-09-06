@@ -33,7 +33,7 @@ Well, you probably shouldn't (at least yet anyways...) but if you really wanted 
 
 ```yaml
 -   repo: https://github.com/smarterhq/shq_pre-commit_docker_powershell
-    rev: master  # Fill this in with a current revisin
+    rev: master  # Fill this in with a current revision
     hooks:
     -   id: powershell-scriptanalyzer-docker
 ```
