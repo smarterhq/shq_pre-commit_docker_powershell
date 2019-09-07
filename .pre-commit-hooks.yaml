@@ -1,6 +1,6 @@
 -   id: powershell-scriptanalyzer-docker
     name: PSScriptAnalyzer (docker)
     description: PSScriptAnalyzer, provided by docker
-    entry: pwsh -c Import-Module PSScriptAnalyzer; Invoke-ScriptAnalyzer -Fix -Path
+    entry: pwsh -c Import-Module /root/.local/share/powershell/Modules/PSScriptAnalyzer; Invoke-ScriptAnalyzer -Fix -Path
     language: docker
     files: \.ps1$
